@@ -1,0 +1,8 @@
+const names=require('./names-4')
+const pn=require('./global-2')
+const alternate=require('./alternate-flavor')
+console.log(alternate)
+pn("suasan")
+pn(names.peter)
+pn(names.john)
+// console.log(names)
